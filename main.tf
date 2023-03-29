@@ -1,5 +1,6 @@
 #readme
 #CREATE A FIRESTORE NATIVE DATABASE
+provider "google"{}
 resource "google_firestore_database""database" {
   project="avian-amulet-378416"
   name="my-firestore-database"
